@@ -1,0 +1,156 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Montserrat-black', sans-serif;
+    font-weight: bolder;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+p{
+    color: #8f8f8f;
+}
+/* Heading*/
+
+.big-heading{
+    font-size: 3.4rem!important;
+    line-height: 1.5!important;
+    font-weight: bolder!important;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: white;
+
+}
+
+.container{
+    padding: 3% 15% 7%;
+}
+
+.navbar{
+    padding-bottom:0 0 4.6rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+.title-img{
+    width: 25%;
+    height: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.test-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+    
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+@media (max-width: 1028px) {
+    .title-img{
+        position: static;
+        transform: rotate(0);
+        height: 100%;
+    }
+    #title{
+        text-align: center;
+    }
+
+}
+
+#cta {
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    color: white;
+    text-align: center;
+}
+
+.h3-footer{
+    font-family: 'Montserrat-black', sans-serif;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+#footer{
+    text-align: center;
+    background-color: white;
+    padding: 2rem;
+}
+.footer-social{
+    margin: 20px 10px;
+}
+.card-header{
+    background-color: #ff4c68!important;
+}
+
+.card-h3{
+    color: white;
+}
